@@ -1,0 +1,47 @@
+Directory Scanner and Report Generator
+Project Overview
+The Directory Scanner and Report Generator is a Python application that scans a selected folder and collects information about its files and subfolders. It displays details such as the file name, extension, size, and last modified date. After scanning, the program generates a well-formatted text report (scan_report.txt) containing all the collected information.
+
+Objective
+?To scan a directory and retrieve information about files and folders.
+?To generate a readable report automatically.
+?To practice Object-Oriented Programming (OOP) and file handling in Python.
+
+Features
+?Scans a specified folder.
+?Lists all files and subfolders.
+?Displays file name, extension, size, and last modified date.
+?Converts file size into a readable format (B, KB, MB, GB).
+?Generates a scan_report.txt report.
+?Handles invalid directory errors.
+
+
+Libraries Used
+?pathlib – To work with files and directories.
+?datetime – To display the last modified date and time of files.
+Programming Concepts Used
+?Object-Oriented Programming (Classes and Objects)
+?File Handling
+?Functions
+?Loops
+?Lists
+?Exception Handling
+?Sorting
+Workflow
+?Enter the directory path.
+?Check if the directory exists.
+?Scan all files and subfolders.
+?Collect file information.
+?Generate a text report.
+?Save the report as scan_report.txt.
+Learning Outcomes
+?Learned how to use Object-Oriented Programming (OOP).
+?Learned to work with files and directories using pathlib.
+?Learned file handling by creating and writing a text report.
+?Learned to use the datetime module to format dates and times.
+?Improved understanding of loops, functions, lists, and sorting.
+?Learned exception handling to manage invalid directory paths.
+?Improved code organization and problem-solving skills.
+
+Conclusion
+This project is a simple and useful tool that automatically scans a folder and generates a report of its contents. It helped improve my understanding of Python programming, file handling, and OOP concepts while creating a practical real-world application.
